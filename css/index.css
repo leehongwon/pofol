@@ -107,8 +107,6 @@ header ul li:nth-child(3) a {
     border-radius: 8px;
 }
 
-
-
 /* ==== 메인 ===== */
 main > *{
     position: relative;
@@ -124,13 +122,15 @@ main > *{
     height: 100vh;
     margin: 0 auto;
     background: #1B1C1F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .section1 #target {
     text-align: center;
     font-size: 5rem;
     font-weight: bold;
     color: #fff;
-    padding-top: 320px;
 }
 #target::after {
     content: "|";
@@ -970,7 +970,6 @@ header button {
 
 
 
-
 /* =============== 반응형  */
 @media screen and (max-width: 1420px) {
     .section11 .gallery li:hover {
@@ -1118,9 +1117,6 @@ header button {
 }
 
 @media screen and (max-width: 900px) {
-    .section1 #target {
-        padding-top: 160px;
-    }
     .wrapper main .section2 {
         height: 120vh;
     }
