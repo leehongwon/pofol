@@ -1116,11 +1116,8 @@ header button {
 }
 
 @media screen and (max-width: 900px) {
-    .section1 {
-        height: 70vh;
-    }
     .section1 #target {
-        padding-top: 200px;
+        padding-top: 150px;
     }
     .wrapper main .section2 {
         height: 120vh;
@@ -1421,6 +1418,7 @@ header button {
 
 
 @media screen and (max-width: 450px) {
+    
     .section1 #target {
         font-size: 3rem;
     }
