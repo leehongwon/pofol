@@ -66,7 +66,6 @@ body {}
     max-width: 1920px;
     width: 100%;
     background-color: #1B1C1F;
-    color: #fff;
 }
 
 
@@ -955,8 +954,8 @@ footer h1 {
 
 /* 라이트모드 설정 */
 .light {
-    background-color: #eee;
-    color: #1B1C1F;
+    background-color: #fff;
+    color: #000 !important;
 }
 header button {
     background: transparent;
@@ -964,6 +963,7 @@ header button {
     border: 0;
     cursor: pointer;
 }
+
 
 
 
@@ -1359,6 +1359,9 @@ header button {
     }
     .section12 {
         padding: 50px;
+    }
+    .mySwiper2 {
+        width: 100%;
     }
 }
 

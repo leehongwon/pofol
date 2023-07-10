@@ -35,7 +35,7 @@ $(function(){
   })
  
   $('header button').click(function(){
-    $('.wrapper,').toggleClass('light')
+    $('header, .section1, .section3, .section4, .section6, .section8, .section9, .section10, .section11, .section12, footer').toggleClass('light')
   })
 
 })
