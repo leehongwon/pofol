@@ -15,6 +15,7 @@ function showPopup() {
 
 // go top버튼
 $(function(){
+  $('.go_top').hide();
   // 윈도우에 스크롤이 300px 이상 생기면 gotop 나타나도록
   $(window).scroll(function(){
       if($(this).scrollTop() >=300){

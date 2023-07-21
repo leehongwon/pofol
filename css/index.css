@@ -405,7 +405,7 @@ main > *{
     color: #fff;
 }
 .section3 article .con .con-detail {
-    font-family: 'Pretendard-Medium';
+    font-family: 'Pretendard-Light';
 }
 .section3 article .con:hover {
     background-color: #fff;
@@ -462,7 +462,7 @@ main > *{
     margin-right: 20px;
     justify-content: space-between;
     color: #fff;
-    font-family: 'Pretendard-Medium';
+    font-family: 'Pretendard-Light';
 }
 
 .section4 article .con:hover {
@@ -474,10 +474,7 @@ main > *{
 .section4 article .con:hover .con-detail {
     color: #000;
 }
-.section4 article .con:nth-child(2):hover {
-    cursor: wait;
-    background-color: rgba(255, 255, 255, .5);
-}
+
 
 /* ==== 섹션5 ==== */
 .section5 {
